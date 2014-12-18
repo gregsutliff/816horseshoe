@@ -9,5 +9,6 @@ class PagesController < ApplicationController
   end
 
   def tour
+  	@thumbs = Dir.glob("app/assets/images/gallery/*_thumb.jpg")
   end
 end
