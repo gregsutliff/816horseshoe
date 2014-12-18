@@ -3,7 +3,7 @@
 
 body {
 	padding-top: 50px;
-	background: url( image_path('back1500.jpg') ) no-repeat center center fixed;
+	background: url( image_path('gallery/back1500.jpg') ) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -30,4 +30,13 @@ h1 {
 	line-height: 1;
 	text-align: center;
 	letter-spacing: -1px;
+}
+
+/* gallery */
+
+#links {
+	padding-top: 80px;
+	a {
+		margin: 10 10 10 10;
+	}
 }

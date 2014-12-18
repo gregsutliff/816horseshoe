@@ -1,5 +1,5 @@
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+<div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
     <!-- Controls for the borderless lightbox -->
@@ -35,7 +35,7 @@
 
 <div id="links">
 	<% @thumbs.each do |thumb| %>
-		<%= link_to image_tag("gallery/#{thumb.split('/').last}", alt: "Back of House"), image_path("gallery/#{thumb.split('/').last}"), "data-gallery" => "" %>
+		<%= link_to image_tag("gallery/thumb/#{thumb.split('/').last}", alt: "Back of House"), image_path("gallery/#{thumb.split('/').last}"), "data-gallery" => "" %>
 	<% end %>
 </div>
 
