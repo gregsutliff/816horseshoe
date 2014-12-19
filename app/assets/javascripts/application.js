@@ -15,6 +15,6 @@
 //= require_tree .
 //= require bootstrap
 //= require turbolinks
-//= require js/bootstrap-image-gallery
+
 
 
