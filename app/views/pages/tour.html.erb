@@ -1,4 +1,8 @@
+
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+
+
+
 <div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
@@ -35,10 +39,16 @@
 
 <div id="links">
 	<% @thumbs.each do |thumb| %>
-		<%= link_to image_tag("gallery/thumb/#{thumb.split('/').last}", alt: "Back of House"), image_path("gallery/#{thumb.split('/').last}"), "data-gallery" => "" %>
+		<%= link_to image_tag("gallery/thumb/#{thumb.split('/').last}", alt: "Back of House"), image_path("gallery/#{thumb.split('/').last}"), "data-gallery" => "", title: "Title" %>
 	<% end %>
 </div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<script src="js/bootstrap-image-gallery.min.js"></script>
+
+
+
+
+
+
+
+
