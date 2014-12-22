@@ -12,4 +12,7 @@ class PagesController < ApplicationController
   	@thumbs = Dir.glob("app/assets/images/gallery/thumb/*.jpg")
   end
 
+  def location
+  end
+
 end

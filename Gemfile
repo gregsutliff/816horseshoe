@@ -28,5 +28,9 @@ gem 'spring',        group: :development
 
 gem 'bootstrap-sass'
 
+gem 'mail_form'
+
+gem 'simple_form'
+
 
 
