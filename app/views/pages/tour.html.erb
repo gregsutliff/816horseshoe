@@ -48,9 +48,64 @@ body {
 </div>
 
 <div id="links">
-	<% @thumbs.each do |thumb| %>
-		<%= link_to image_tag("gallery/thumb/#{thumb.split('/').last}", alt: "Back of House"), image_path("gallery/#{thumb.split('/').last}"), "data-gallery" => "" %>
-	<% end %>
+    <%= link_to image_tag("gallery/thumb/back1500.jpg", alt: "Back of House"),
+        image_path("gallery/back1500.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/houseside.jpg", alt: "Side of House"),
+        image_path("gallery/houseside.jpg"), "data-gallery" => "" %>
+    
+    <%= link_to image_tag("gallery/thumb/porch1.jpg", alt: "Farmer's Porch"), image_path("gallery/porch1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/aboutback.jpg", alt: "Great Room"),
+    image_path("gallery/aboutback.jpg"), "data-gallery" => "" %>
+
+
+    <%= link_to image_tag("gallery/thumb/mountain.jpg", alt: "Mountain View"), image_path("gallery/mountain.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/kitchen1.jpg", alt: "Mountain View"),
+        image_path("gallery/kitchen1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/kitchen2.jpg", alt: "Kitchen"), image_path("gallery/kitchen2.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/kitchen3.jpg", alt: "Kitchen"), image_path("gallery/kitchen3.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/dining1.jpg", alt: "Dining Room"), image_path("gallery/dining1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/2bath1.jpg", alt: "Bathroom"), image_path("gallery/2bath1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/masterbed.jpg", alt: "Master Bed"), image_path("gallery/masterbed.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/master2.jpg", alt: "Master Bed"), image_path("gallery/master2.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/masterbath1.jpg", alt: "Master Bath"), image_path("gallery/masterbath1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/railings.jpg", alt: "Loft"), image_path("gallery/railings.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/stairs1.jpg", alt: "Stairs"), image_path("gallery/stairs1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/loft2.jpg", alt: "Loft"), image_path("gallery/loft2.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/2bed.jpg", alt: "Guest Bed"), image_path("gallery/2bed.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/3bath2.jpg", alt: "Guest Bath"), image_path("gallery/3bath2.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/3bath3.jpg", alt: "Guest Bath"), image_path("gallery/3bath3.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/mud1.jpg", alt: "Mud Room"), image_path("gallery/mud1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/guest1.jpg", alt: "Guest House"), image_path("gallery/guest1.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/2kitchen.jpg", alt: "Guest Kitchen"), image_path("gallery/2kitchen.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/guest3.jpg", alt: "Guest Bedroom"), image_path("gallery/guest3.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/guest4.jpg", alt: "Guest Bedroom"), image_path("gallery/guest4.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/guest6.jpg", alt: "Guest House"), image_path("gallery/guest6.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/guest5.jpg", alt: "Guest Bath"), image_path("gallery/guest5.jpg"), "data-gallery" => "" %>
+
+    <%= link_to image_tag("gallery/thumb/deer.jpg", alt: "Deer on Property"), image_path("gallery/deer.jpg"), "data-gallery" => "" %>
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -59,7 +114,6 @@ body {
 <script src="jquery.min.js" type="text/javascript"></script>
 
 <% #TODO Add descriptions to the photos. %>
-<% #TODO Add all of the photos and put them in order. %>
 
 
 

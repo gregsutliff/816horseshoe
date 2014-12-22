@@ -39,7 +39,8 @@
 	<% #TODO set other location points in the area %>
 	<% #TODO animate the location markers %>
 	<% #TODO focus on markers when user clicks a corresponding list item %>
-<script>	
+<script>
+
   var map;
 
   function init_map() {
@@ -71,6 +72,8 @@
    google.maps.event.trigger(map, "resize");
    map.setCenter(center);
   });
-
+ 
+ $(document).ready(init_map);
+ $(document).on('page:load', init_map);
 
 </script>
