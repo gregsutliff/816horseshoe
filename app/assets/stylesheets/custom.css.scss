@@ -24,6 +24,13 @@ body {
 
 }
 
+#price {
+	line-height: 1;
+	font-size: 2em;
+	text-align: center;
+	display: block;
+}
+
 #map-container {
 	height: 20em;
 	width: 100%;
@@ -34,6 +41,10 @@ body {
 }
 .gmnoprint div {
     background:none !important;
+}
+
+.gm-style-cc {
+	display: none !important;
 }
 
 img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white2.png"], a[href^="http://maps.google.com/maps"]{
@@ -71,31 +82,35 @@ h1 {
 /*flash*/
 
 .alert-error {
+margin-top: 15px;
 background-color: #f2dede;
 border-color: #eed3d7;
 color: #b94a48;
-text-align: left;
+text-align: center;
 }
 
 .alert-alert {
+margin-top: 15px;
 background-color: #f2dede;
 border-color: #eed3d7;
 color: #b94a48;
-text-align: left;
+text-align: center;
 }
 
 .alert-success {
+margin-top: 15px;
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
-text-align: left;
+text-align: center;
 }
 
 .alert-notice {
+margin-top: 15px;
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
-text-align: left;
+text-align: center;
 }
 
 

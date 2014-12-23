@@ -19,16 +19,15 @@
 				<div>
 					</br>
 					<%= f.button :submit, 'Send message', :class => "btn btn-primary" %>
-					<div>
-					  <% flash.each do |key, value| %>
-					    <div>
-					      <a href="#" data-dismiss="alert"></a>
-					        <%= value %>
-					    </div>
-					  <% end %>
-					</div>
 				</div>
 			<% end %>
+			<div>
+				<% flash.each do |key, value| %>
+					<div class="alert alert-<%= key %>">
+						<%= value %>
+					</div>
+				<% end %>
+			</div>
 		</div>
 	</div>
 </div>

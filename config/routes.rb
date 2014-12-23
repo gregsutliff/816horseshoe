@@ -12,4 +12,3 @@ Rails.application.routes.draw do
 end
 
 
-#TODO make it so that the redirect after sending a message is just a flash now message
