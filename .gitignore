@@ -20,4 +20,4 @@
 /config/database.yml
 
 # Ignore email password file
-/config/initializers/app_env_vars.rb
+/config/initializers/app_env_vars.rbsecrets.yml
